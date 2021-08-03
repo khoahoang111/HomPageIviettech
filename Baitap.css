@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+/* header */
+.logo {
+    float: left;
+    height: 10%;
+    margin-left: -120px;
+    margin-right: 15px;
+}
+.menu {
+    text-align: center;
+    background: #fff;
+    color: #000000;
+    margin: 10px 20px 30px 20px;
+}
+.menu ul li {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+}
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: #ff7052;
+}
+body {
+    font-family: arial, helvetica, sans-serif;
+    background-color: #ca3438;    
+}
+
+/* top */
+.topbar {
+    float: left;
+    margin: 1px 0px 3px -5px;
+}
+/* form dang ky */
+.submit_class {
+    display: block;
+    border: 2px dashed #FFFFFF;
+    margin: 0px 30px 30px 120px;
+    padding: 15px;
+    padding-bottom: -5px;
+    float: left;
+    height: 309px;
+    width: 320px;
+}
+.submit_class h3 {
+    border-bottom: 1px dashed #F5A89A;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0px;
+    color: #ffffff;
+}
+.submit_class .form_class_bos {
+    display: block;
+    float: left;
+    text-indent: 4px;
+    margin: 5px;
+    height: 30px;
+    line-height: 40px;
+    width: 276px;
+}
+.form_submit {
+    margin-top: -5px;
+}
+#form_text {
+    height: 80px; 
+}
+#submit_click {
+    width: 100px;
+    float: right;
+}
+/* gioi thieu */
+.gt {
+    color: #fff;
+    height: 309px;
+    border: 2px dashed #FFFFFF;
+    float: center;
+    margin: 0px 120px 50px 460px;
+    padding: 0px 50px 80px 70px;
+    letter-spacing: 1px;
+}
+.gt1 {
+    display: flex;
+}
+.gt2 {
+    word-spacing: 5px;
+    line-height: 1.2;
+    padding-left: 50px;
+    width: 500px;
+}
+.gt img {
+    float: left;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.linka {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    float: right;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    padding-top: 7px;
+    border-radius: 15px;
+    background: #34A853;
+    word-spacing: 0px;
+    line-height: 1;
+}
+.linka:hover {
+    color: #ca3438;
+    background: #fff;
+}
+/* khóa học */
+
+.khoahoc {
+    margin: 40px 120px 40px 120px;
+    padding-right: 20px;
+    border: 1px dashed #fff;
+    background: #ffffff;
+}
+.tieude {
+    column-span: all;
+    font-size: 150%;
+    margin: 20px 390px 20px 390px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    color: #424242;
+    text-decoration: none;
+}
+
+.khoahoccolumn ul {
+    list-style-type: none;
+    display: block;
+    column-count: 3;
+    margin: 30px 0px 30px 0px;
+    line-height: 10px;
+}
+.khoahoccolumn li {
+    padding: 10px 20px 10px 20px;
+    border: 2px solid #A4A4A4;
+    border-collapse: separate;
+}
+.khoahoccolumn a {
+    color: #ca3438;
+    font-size: 110%;
+    text-decoration: none;
+}
+.khoahoccolumn a:hover {
+    color: #34A853;
+}
+.khoahoccolumn p {
+    font-size: 95%;
+}
+.khoahoccolumn img {
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* footer */
+.footer1 {
+    display: flex;
+    background: #fff;
+    height: 180px;
+    padding: 10px 120px 10px 128px;
+    margin-bottom: 1px;
+}
+.logobot {
+    height: 50%;
+    padding-right: 280px;
+}
+
+.footer2 {
+    background: #000000;
+    text-align: center;
+    color: #fff;
+    height: 25px;
+    font-size: 95%;
+    margin-top: -17px;
+}
+.footer2 p {
+    padding-top: 4px;
+}
